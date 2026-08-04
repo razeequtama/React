@@ -1,0 +1,25 @@
+/* Overall page styling */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 30px;
+}
+
+/* Red heading */
+.heading {
+  color: red;
+}
+
+/* Image container */
+.image-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+/* Reusable image styling */
+.food-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
