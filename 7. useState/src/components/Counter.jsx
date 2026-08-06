@@ -13,6 +13,7 @@ function Counter()
     return(
         <>
             <button onClick={increase}>Counter is {counter}</button>
+            <br/>
         </>
     );
 };
