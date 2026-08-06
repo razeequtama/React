@@ -4,7 +4,7 @@ function Input() {
     const [characters, countCharacters] = useState(0);
 
     function setCharactersCount(event) {
-        const charactersAmount = event.target.value.length;
+        const charactersAmount = event.target.value.trim().length;
         countCharacters(charactersAmount);
     }
 
