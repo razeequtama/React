@@ -17,6 +17,7 @@ function Text()
         <>
             <p style={isHidden ? displayNone : displayBlock}>This is a text</p>
             <button onClick={toggleVisibility}>{isHidden ? "Show": "Hide"}</button>
+            <br />
         </>
     );
 };

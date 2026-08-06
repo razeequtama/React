@@ -1,6 +1,7 @@
 import React from "react";
 import Counter from "./components/Counter";
 import Text from "./components/Text";
+import Input from "./components/Input";
 
 function App()
 {
@@ -8,6 +9,7 @@ function App()
         <>
             <Counter />
             <Text />
+            <Input />
         </>
     ) 
 }
