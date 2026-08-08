@@ -1,0 +1,98 @@
+/* Use border-box sizing for all elements. */
+* {
+  box-sizing: border-box;
+}
+
+/* Style the entire page. */
+body {
+  /* Remove the browser's default margin. */
+  margin: 0;
+
+  /* Use a modern system font stack. */
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  /* Give the page a light background. */
+  background: #f5f5f5;
+
+  /* Set the default text color. */
+  color: #222;
+}
+
+/* Style the main application container. */
+main {
+  /* Limit the width of the content. */
+  max-width: 600px;
+
+  /* Center the container horizontally. */
+  margin: 80px auto;
+
+  /* Add space inside the container. */
+  padding: 32px;
+
+  /* Give the container a white background. */
+  background: white;
+
+  /* Round the container's corners. */
+  border-radius: 12px;
+
+  /* Add a subtle shadow. */
+  box-shadow: 0 4px 20px rgb(0 0 0 / 10%);
+
+  /* Center the content. */
+  text-align: center;
+}
+
+/* Add some spacing around the input. */
+input {
+  /* Add space inside the input. */
+  padding: 10px;
+
+  /* Add space below the input. */
+  margin: 10px;
+
+  /* Give the input a visible border. */
+  border: 1px solid #ccc;
+
+  /* Round the input corners. */
+  border-radius: 6px;
+}
+
+/* Style all buttons. */
+button {
+  /* Add space inside the button. */
+  padding: 10px 16px;
+
+  /* Add space around the button. */
+  margin: 5px;
+
+  /* Remove the default border. */
+  border: none;
+
+  /* Round the button corners. */
+  border-radius: 6px;
+
+  /* Set the button background color. */
+  background: #2563eb;
+
+  /* Make the text white. */
+  color: white;
+
+  /* Show that the button is clickable. */
+  cursor: pointer;
+}
+
+/* Change the button color when hovered. */
+button:hover {
+  background: #1d4ed8;
+}
+
+/* Add spacing around the horizontal divider. */
+hr {
+  margin: 30px 0;
+}
